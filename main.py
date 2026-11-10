@@ -42,6 +42,10 @@ def main() -> None:
     #tarea.completar("completada")
     #tarea.mostrar()
     
+    #Listar las tareas de un responsable en concreto
     
+    #tarea1 = Tarea("Primer laboratorio", "David", "Primera", "Hola")
+    #tarea1.mostrar()
+    #tarea1.obtener_nombre_concreto()                   
 if __name__ == "__main__":
     main()

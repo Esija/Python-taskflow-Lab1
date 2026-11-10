@@ -13,3 +13,15 @@ class Usuario:
     def mostrar(self):
         print(f"Nombre: {self.nombre}")
         
+    def obtener_nombre_concreto(self):
+        if self.nombre == "David":
+            print(f"Las tareas de {self.nombre} son: Tarea 1, Tarea 2, Tarea 3")
+        else:
+            print(f"No hay tareas asignadas a {self.nombre}")
+    
+    def obtener_tareas_de_cualquier_usuario(self, nombre_usuario):
+        if self.nombre == nombre_usuario:
+            print(f"Las tareas de {self.nombre} son: Tarea 1, Tarea 2, Tarea 3")
+        else:
+            print(f"No hay tareas asignadas a {nombre_usuario}")
+    
